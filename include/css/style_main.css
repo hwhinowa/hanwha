@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body{background:#f4f4f4;}
+
+/**header**/
+header{overflow:hidden;width:100%;}
+header .head{width:1200px; margin:0 auto;}
+header .head h1{float:left; padding:10px 0;}
+header .head h1 img{width:100%;}
+header .head ul{float:left; overflow:hidden; padding-left:50px;}
+header .head ul li{float:left; margin:30px 40px 0 0;}
+header .head ul li a{display:block; font-size:16px; color:#333; letter-spacing:-1px;}
+header .head ul li:last-child{margin-right:0;}
+header .top{position:absolute; right:0; width:20%; background:#f37421; padding:20px 0 13px 25px;}
+header .top > a{display:block; width:60px; font-family:"Verdana",verdana; font-size:14px; color:#333;}
+header .top > a + a{color:#f0f0f0; line-height:200%;}
+header .top p{position:absolute; top:0; right:60%; margin:12px 0;
+	background:rgba(0,0,0,0.5);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
+	-ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
+}
+.Gmenu{display:none;}
+header .top p a{display:block; font-size:12px; color:#fff; padding:20px 18px 18px;}
+/**header END**/
+
+/**비주얼**/
+.vis{position:relative; width:100%;}
+.vis img{width:100%;}
+.vis p{position:absolute; width:100%; top:36%; font-size:18px; color:#fff; text-align:center;}
+.vis p strong{display:block; font-family:"Verdana"; font-size:68px; text-transform:uppercase; padding-bottom:35px;}
+/**비주얼 END**/
+
+/**컨텐츠**/
+.contents{width:100%; margin-top:-3px;}
+/*공통 (열병합발전소 & 프로세스 & 뉴스)*/
+.art_center{width:1200px; margin:60px auto 0;}
+.art_center h4{text-align:center;}
+.art_center h4 span{display:block; width:8%; height:3px; background:#f37421; margin:0 auto 22px;}
+.art_center h4 strong{font-family:"Verdana"; font-size:36px; color:#f37421; text-align:center;}
+
+/*열병합발전소*/
+#plant{overflow:hidden;}
+#plant h4 p{font-size:18px; font-weight:normal; color:#555; line-height:150%; letter-spacing:-1px; text-align:center; margin:26px 0 70px;}
+#plant div{float:left; width:47.9%; margin-right:4.16%;}
+#plant div iframe{width:100%; height:348px;}
+#plant div + div{margin-right:0;}
+#plant div p{font-size:18px; color:#555; letter-spacing:-1px; text-align:center; margin-bottom:30px;}
+#plant div span{display:block; width:100%;}
+#plant div span img{width:100%;}
+/*열병합발전소 END*/
+
+/*프로세스*/
+#process h4 {margin-bottom:60px;}
+#process .inner_process{overflow:hidden; background:url("../../img/process.jpg") 0 100% no-repeat;}
+#process .inner_process p span{display:block;}
+#process .inner_process p{font-size:14px; color:#555; line-height:150%; letter-spacing:-1px; text-align:right; padding-right:15px; margin-bottom:160px;}
+#process .inner_process div{float:right; width:38%; font-family:"Verdana"; font-size:18px; color:#555; line-height:150%; letter-spacing:-1px; text-align:right; padding:22px 14px 22px 30px;
+	background:rgba(255,255,255,0.5);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
+	-ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
+}
+#process .inner_process div span{display:block;}
+/*프로세스 END*/
+
+/*뉴스*/
+#news ul{overflow:hidden; margin-top:60px;}
+#news ul li{position:relative; float:left; width:18.8%; height:320px; margin-right:1.5%; background:#fff;}
+#news ul li:last-child{margin-right:0;}
+#news ul li a{display:block;}
+#news ul li a strong{display:block; width:70%; font-size:12px; color:#fff; text-align:center; padding:18px 0 14px; margin:0 auto; background:#8fb750;}
+#news ul li a p{width:85%; font-size:14px; color:#555; line-height:150%; letter-spacing:-1px; text-align:center; margin:20px auto 0;}
+#news ul li a p span{display:block;}
+#news ul li a p span.line_change{display:inline;}
+#news ul li a > span{position:absolute; bottom:0; display:block; width:100%;}
+#news ul li a > span img{width:100%;}
+/*뉴스 END*/
+
+/*글로벌 네트워크*/
+#network{width:100%; background:#fff;}
+.network_box{width:1200px; padding-top:50px; margin:60px auto 0; }
+.network_box h4{text-align:center;}
+.network_box h4 span{display:block; width:8%; height:3px; background:#f37421; margin:0 auto 22px;}
+.network_box h4 strong{font-family:"Verdana"; font-size:36px; color:#f37421; text-align:center;}
+.network_box h4 p{font-size:14px; font-weight:normal; color:#555; line-height:150%; letter-spacing:-1px; text-align:center; margin:26px 0 70px;}
+.network_box > span{display:block; width:85%; padding-bottom:70px; margin:0 auto;}
+.network_box > span img{width:100%;}
+.network_box > span.miniMap{display:none;}
+/*글로벌 네트워크 END*/
+/** 컨텐츠 END **/
+
+/** footer **/
+footer{width:1200px; margin:0 auto 100px;}
+footer div{overflow:hidden; width:25%; margin:0 auto;}
+footer div a{float:left; display:block; width:32%; font-size:12px; color:#fff; letter-spacing:-1px; text-align:center; background:#f37421; padding:18px 0; margin-right:1.3%;}
+footer div a:last-child{margin-right:0;}
+footer p{font-size:12px; color:#777; text-align:right; letter-spacing:-1px; line-height:130%; margin-top:50px;}
+footer p span{display:block;}
+/** footer END **/
+
